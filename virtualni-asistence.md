@@ -2,6 +2,7 @@
 layout: single
 title: "Virtuální asistence"
 classes: va-style
+permalink: /virtualni-asistence/
 ---
 
 # Virtuální asistence – Růžena Sukeníková
@@ -26,3 +27,4 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 
 ### Kontakt
 *(doplní tvoje žena)*
+
