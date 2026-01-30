@@ -5,7 +5,7 @@ classes: it-style
 permalink: /
 ---
 
-# IT správa & infrastruktura
+# Kamil Sukeník
 
 ## Profesionální správa serverů, sítí a IT infrastruktury
 
@@ -24,3 +24,4 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - individuální přístup
 - rychlá reakční doba
 - důraz na bezpečnost a prevenci
+
