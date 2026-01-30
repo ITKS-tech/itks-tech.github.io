@@ -1,83 +1,12 @@
-/* IT – pozadí */
-.it-style,
-.it-style body,
-.it-style .page,
-.it-style .page__content {
-  background: #FFFFFF !important;
-  color: #2B2B2B !important;
-}
-
-/* IT – nadpisy */
-.it-style h1,
-.it-style h2,
-.it-style h3,
-.it-style .page__title {
-  color: #1F4E79 !important;
-}
-
-/* IT – odkazy */
-.it-style a {
-  color: #1F4E79 !important;
-}
-
-.it-style a:hover {
-  color: #4A90E2 !important;
-}
-
-/* IT – horní menu */
-.it-style .masthead,
-.it-style .greedy-nav,
-.it-style .site-title,
-.it-style .site-nav {
-  background: #1F4E79 !important;
-}
-
-.it-style .greedy-nav a,
-.it-style .site-title a {
-  color: #FFFFFF !important;
-}
-
-
-/* VA – pozadí */
-.va-style,
-.va-style body,
-.va-style .page,
-.va-style .page__content {
-  background: #F8F9FA !important;
-  color: #2B2B2B !important;
-}
-
-/* VA – nadpisy */
-.va-style h1,
-.va-style h2,
-.va-style h3,
-.va-style .page__title {
-  color: #D63384 !important;
-}
-
-/* VA – odkazy */
-.va-style a {
-  color: #D63384 !important;
-}
-
-.va-style a:hover {
-  color: #20C997 !important;
-}
-
-/* VA – horní menu */
-.va-style .masthead,
-.va-style .greedy-nav,
-.va-style .site-title,
-.va-style .site-nav {
-  background: #D63384 !important;
-}
-
-.va-style .greedy-nav a,
-.va-style .site-title a {
-  color: #FFFFFF !important;
-}
-
-/* Schovat název webu v menu */
-.masthead .site-title {
+/* Schovat název webu v menu – všechny varianty */
+.site-title,
+.site-title a,
+.masthead__inner-wrap .site-title,
+.masthead__menu .site-title {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
 }
