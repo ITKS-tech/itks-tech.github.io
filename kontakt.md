@@ -6,6 +6,6 @@ classes: it-style
 
 **E-mail:** sukenik@itks.cz 
 **Telefon:** +420607833285 
-**Lokalita:** Moravskoslezskı kraj
+**Lokalita:** MoravskoslezskÃ½ kraj
 
-Rádi vám pøipravíme nabídku na míru.
+RÃ¡di vÃ¡m pÃ¸ipravÃ­me nabÃ­dku na mÃ­ru.
