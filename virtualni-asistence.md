@@ -1,28 +1,28 @@
 ---
 layout: single
-title: "Virtuální asistence"
+title: "VirtuÃ¡lnÃ­ asistence"
 classes: va-style
 ---
 
-# Virtuální asistence – Rùena Sukeníková
+# VirtuÃ¡lnÃ­ asistence â€“ RÅ¯Å¾ena SukenÃ­kovÃ¡
 
-## Moderní administrativní podpora pro podnikatele a organizace
+## ModernÃ­ administrativnÃ­ podpora pro podnikatele a organizace
 
-Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly, které vám ušetøí èas a umoní soustøedit se na vaše podnikání.
+PomÃ¡hÃ¡m s administrativou, komunikacÃ­, organizacÃ­ agendy a dalÅ¡Ã­mi Ãºkoly, kterÃ© vÃ¡m uÅ¡etÅ™Ã­ Äas a umoÅ¾nÃ­ soustÅ™edit se na vaÅ¡e podnikÃ¡nÃ­.
 
-### S èím mohu pomoci
-- e-mailová komunikace
-- správa kalendáøe a schùzek
-- pøíprava dokumentù
+### S ÄÃ­m mohu pomoci
+- e-mailovÃ¡ komunikace
+- sprÃ¡va kalendÃ¡Å™e a schÅ¯zek
+- pÅ™Ã­prava dokumentÅ¯
 - online administrativa
-- zákaznická podpora
-- práce s daty a tabulkami
+- zÃ¡kaznickÃ¡ podpora
+- prÃ¡ce s daty a tabulkami
 
-### Proè spolupracovat se mnou
-- moderní pøístup
-- peèlivost a spolehlivost
-- rychlá komunikace
-- individuální pøístup
+### ProÄ spolupracovat se mnou
+- modernÃ­ pÅ™Ã­stup
+- peÄlivost a spolehlivost
+- rychlÃ¡ komunikace
+- individuÃ¡lnÃ­ pÅ™Ã­stup
 
 ### Kontakt
-*(doplní tvoje ena)*
+*(doplnÃ­ tvoje Å¾ena)*
