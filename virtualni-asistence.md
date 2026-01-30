@@ -5,6 +5,9 @@ classes: va-style
 permalink: /virtualni-asistence/
 ---
 
+<p align="center">
+  <img src="/assets/images/PodpisRS.jpg" width="250" style="border-radius: 50%;">
+</p>
 # Růžena Sukeníková
 
 ## Moderní administrativní podpora pro podnikatele a organizace
@@ -29,6 +32,7 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 **E-mail:** sukenikova@itks.cz  
 **Telefon:** +420602427966  
 **Lokalita:** Moravskoslezský kraj
+
 
 
 
