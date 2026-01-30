@@ -6,14 +6,14 @@ classes: it-style
 
 ## Reference
 
-### Mìstskı úøad Kravaøe
-ICT správce – správa serverù, sítí, bezpeènosti a uivatelské podpory.
+### MÄ›stskÃ½ ÃºÅ™ad KravaÅ™e
+ICT sprÃ¡vce â€“ sprÃ¡va serverÅ¯, sÃ­tÃ­, bezpeÄnosti a uÅ¾ivatelskÃ© podpory.
 
 ### Organizace v regionu
-Dlouhodobá správa serverù, sítí a koncovıch stanic.
+DlouhodobÃ¡ sprÃ¡va serverÅ¯, sÃ­tÃ­ a koncovÃ½ch stanic.
 
-### Zamìøení
-- stabilní provoz
-- bezpeènost
-- prevence vıpadkù
-- rychlá reakce
+### ZamÄ›Å™enÃ­
+- stabilnÃ­ provoz
+- bezpeÄnost
+- prevence vÃ½padkÅ¯
+- rychlÃ¡ reakce
