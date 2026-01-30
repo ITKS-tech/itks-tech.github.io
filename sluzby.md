@@ -2,6 +2,7 @@
 layout: single
 title: "IT služby"
 classes: it-style
+permalink: /sluzby/
 ---
 
 ## Správa serverů
@@ -22,3 +23,4 @@ classes: it-style
 - instalace a správa pracovních stanic
 - aktualizace a zabezpečení
 - řešení incidentů
+
