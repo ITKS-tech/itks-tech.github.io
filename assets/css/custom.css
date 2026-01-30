@@ -1,42 +1,34 @@
-/* IT styl */
-.it-style {
-  --mm-primary-color: #1F4E79;
-  --mm-secondary-color: #4A90E2;
-  --mm-text-color: #2B2B2B;
-  --mm-bg-color: #FFFFFF;
+/* IT – pozadí */
+.it-style body,
+.it-style .page,
+.it-style .page__content {
+  background: #FFFFFF !important;
+  color: #2B2B2B !important;
 }
 
-/* VA styl */
-.va-style {
-  --mm-primary-color: #D63384;
-  --mm-secondary-color: #20C997;
-  --mm-text-color: #2B2B2B;
-  --mm-bg-color: #F8F9FA;
+/* IT – nadpisy */
+.it-style h1,
+.it-style h2,
+.it-style h3,
+.it-style .page__title {
+  color: #1F4E79 !important;
 }
 
-/* Aplikace barev – silné přepsání Minimal Mistakes */
-.page,
-.page__content,
-.page__hero,
-.page__meta,
-.masthead,
-.greedy-nav,
-.site-title,
-.site-nav,
-body {
-  background-color: var(--mm-bg-color) !important;
-  color: var(--mm-text-color) !important;
+/* IT – odkazy */
+.it-style a {
+  color: #1F4E79 !important;
 }
 
-.page__title,
-h1, h2, h3, h4,
-a,
-.site-title,
-.greedy-nav a {
-  color: var(--mm-primary-color) !important;
+.it-style a:hover {
+  color: #4A90E2 !important;
 }
 
-a:hover,
-.greedy-nav a:hover {
-  color: var(--mm-secondary-color) !important;
+/* IT – horní menu */
+.it-style .masthead,
+.it-style .greedy-nav {
+  background: #1F4E79 !important;
+}
+
+.it-style .greedy-nav a {
+  color: #FFFFFF !important;
 }
