@@ -14,19 +14,29 @@
   --mm-bg-color: #F8F9FA;
 }
 
-/* Aplikace barev – silnější selektory */
+/* Aplikace barev – silné přepsání Minimal Mistakes */
+.page,
 .page__content,
-.page {
+.page__hero,
+.page__meta,
+.masthead,
+.greedy-nav,
+.site-title,
+.site-nav,
+body {
+  background-color: var(--mm-bg-color) !important;
   color: var(--mm-text-color) !important;
-  background: var(--mm-bg-color) !important;
 }
 
 .page__title,
 h1, h2, h3, h4,
-a {
+a,
+.site-title,
+.greedy-nav a {
   color: var(--mm-primary-color) !important;
 }
 
-a:hover {
+a:hover,
+.greedy-nav a:hover {
   color: var(--mm-secondary-color) !important;
 }
