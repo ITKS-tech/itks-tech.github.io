@@ -76,3 +76,8 @@
 .va-style .site-title a {
   color: #FFFFFF !important;
 }
+
+/* Schovat název webu v menu */
+.masthead .site-title {
+  display: none !important;
+}
