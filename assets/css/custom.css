@@ -32,3 +32,38 @@
 .it-style .greedy-nav a {
   color: #FFFFFF !important;
 }
+
+/* VA – pozadí */
+.va-style body,
+.va-style .page,
+.va-style .page__content {
+  background: #F8F9FA !important;
+  color: #2B2B2B !important;
+}
+
+/* VA – nadpisy */
+.va-style h1,
+.va-style h2,
+.va-style h3,
+.va-style .page__title {
+  color: #D63384 !important;
+}
+
+/* VA – odkazy */
+.va-style a {
+  color: #D63384 !important;
+}
+
+.va-style a:hover {
+  color: #20C997 !important;
+}
+
+/* VA – horní menu */
+.va-style .masthead,
+.va-style .greedy-nav {
+  background: #D63384 !important;
+}
+
+.va-style .greedy-nav a {
+  color: #FFFFFF !important;
+}
