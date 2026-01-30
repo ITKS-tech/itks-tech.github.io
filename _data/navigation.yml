@@ -1,0 +1,17 @@
+main:
+  - title: "Úvod"
+    url: /
+  - title: "IT služby"
+    url: /sluzby/
+  - title: "Virtuální asistence"
+    url: /virtualni-asistence/
+  - title: "Návody"
+    url: /navody/
+  - title: "Reference"
+    url: /reference/
+  - title: "Technologie"
+    url: /technologie/
+  - title: "O nás"
+    url: /o-nas/
+  - title: "Kontakt"
+    url: /kontakt/
