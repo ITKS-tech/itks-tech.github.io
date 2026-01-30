@@ -2,6 +2,7 @@
 layout: single
 title: "IT správa & infrastruktura"
 classes: it-style
+permalink: /
 ---
 
 # IT správa & infrastruktura
@@ -22,5 +23,4 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - praxe v komerčním i veřejném sektoru
 - individuální přístup
 - rychlá reakční doba
-
-- důraz na bezpečnost a prevenci 
+- důraz na bezpečnost a prevenci
