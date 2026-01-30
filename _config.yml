@@ -1,5 +1,5 @@
 title: "IT & Virtuální asistence"
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
@@ -18,3 +18,4 @@ sidebar:
 
 include:
   - assets/css/custom.css
+
