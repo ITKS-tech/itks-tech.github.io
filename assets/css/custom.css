@@ -1,4 +1,4 @@
-/* Styl pro tebe – IT (modro-šedý) */
+/* IT styl */
 .it-style {
   --mm-primary-color: #1F4E79;
   --mm-secondary-color: #4A90E2;
@@ -6,7 +6,7 @@
   --mm-bg-color: #FFFFFF;
 }
 
-/* Styl pro ženu – moderní barevný */
+/* VA styl */
 .va-style {
   --mm-primary-color: #D63384;
   --mm-secondary-color: #20C997;
@@ -14,18 +14,19 @@
   --mm-bg-color: #F8F9FA;
 }
 
-/* Aplikace barev */
-.page__content {
-  color: var(--mm-text-color);
-  background: var(--mm-bg-color);
+/* Aplikace barev – silnější selektory */
+.page__content,
+.page {
+  color: var(--mm-text-color) !important;
+  background: var(--mm-bg-color) !important;
 }
 
-a,
 .page__title,
-h1, h2, h3, h4 {
-  color: var(--mm-primary-color);
+h1, h2, h3, h4,
+a {
+  color: var(--mm-primary-color) !important;
 }
 
 a:hover {
-  color: var(--mm-secondary-color);
+  color: var(--mm-secondary-color) !important;
 }
