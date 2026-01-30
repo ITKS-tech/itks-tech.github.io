@@ -1,17 +1,17 @@
 main:
-  - title: "⁄vod"
+  - title: "√övod"
     url: /
-  - title: "IT sluûby"
+  - title: "IT slu≈æby"
     url: /sluzby/
-  - title: "Virtu·lnÌ asistence"
+  - title: "Virtu√°ln√≠ asistence"
     url: /virtualni-asistence/
-  - title: "N·vody"
+  - title: "N√°vody"
     url: /navody/
   - title: "Reference"
     url: /reference/
   - title: "Technologie"
     url: /technologie/
-  - title: "O n·s"
+  - title: "O n√°s"
     url: /o-nas/
   - title: "Kontakt"
     url: /kontakt/
