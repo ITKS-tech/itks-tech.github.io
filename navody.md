@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "Návody"
+title: "NÃ¡vody"
 classes: it-style
 ---
 
-## Technické návody
+## TechnickÃ© nÃ¡vody
 
-Zde najdete postupy, konfigurace a øešení problémù z oblasti správy serverù, sítí a IT infrastruktury.
+Zde najdete postupy, konfigurace a Å™eÅ¡enÃ­ problÃ©mÅ¯ z oblasti sprÃ¡vy serverÅ¯, sÃ­tÃ­ a IT infrastruktury.
 
-### Nejnovìjší èlánky
+### NejnovÄ›jÅ¡Ã­ ÄlÃ¡nky
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
