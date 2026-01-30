@@ -2,11 +2,12 @@
 layout: single
 title: "Reference"
 classes: it-style
+permalink: /reference/
 ---
 
 ## Reference
 
-### Městský úřad Kravaře
+### Veřejná správa
 ICT správce – správa serverů, sítí, bezpečnosti a uživatelské podpory.
 
 ### Organizace v regionu
@@ -17,3 +18,4 @@ Dlouhodobá správa serverů, sítí a koncových stanic.
 - bezpečnost
 - prevence výpadků
 - rychlá reakce
+
