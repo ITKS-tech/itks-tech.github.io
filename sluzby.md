@@ -1,24 +1,24 @@
 ---
 layout: single
-title: "IT sluby"
+title: "IT sluÅ¾by"
 classes: it-style
 ---
 
-## Správa serverù
+## SprÃ¡va serverÅ¯
 - Windows Server (AD, DNS, DHCP, GPO)
 - Linux (Ubuntu, Debian)
 - Virtualizace (Hyper-V, VMware)
-- Zálohování a obnova dat
-- Monitoring a údrba
+- ZÃ¡lohovÃ¡nÃ­ a obnova dat
+- Monitoring a ÃºdrÅ¾ba
 
-## Správa sítí
+## SprÃ¡va sÃ­tÃ­
 - Mikrotik (routery, firewall, VPN)
 - Ubiquiti (Wi-Fi, switche)
-- Návrh a správa LAN/WAN
-- Bezpeènostní opatøení
+- NÃ¡vrh a sprÃ¡va LAN/WAN
+- BezpeÄnostnÃ­ opatÅ™enÃ­
 
-## Podpora koncovıch stanic
-*(pouze pro smluvní klienty)*  
-- instalace a správa pracovních stanic
-- aktualizace a zabezpeèení
-- øešení incidentù
+## Podpora koncovÃ½ch stanic
+*(pouze pro smluvnÃ­ klienty)*  
+- instalace a sprÃ¡va pracovnÃ­ch stanic
+- aktualizace a zabezpeÄenÃ­
+- Å™eÅ¡enÃ­ incidentÅ¯
