@@ -1,5 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
 
+logo: /assets/images/favicon.png
+
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
@@ -25,6 +27,7 @@ sass:
 
 include:
   - assets/css/custom.scss
+
 
 
 
