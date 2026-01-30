@@ -10,12 +10,12 @@ classes: it-style
 - Hyper-V
 - VMware
 
-## SÌtÏ
+## S√≠t√¨
 - Mikrotik
 - Ubiquiti
 - VPN
 - Firewalling
 
-## Cloud a sluûby
+## Cloud a slu≈æby
 - Microsoft 365
-- Azure AD (z·kladnÌ integrace)
+- Azure AD (z√°kladn√≠ integrace)
