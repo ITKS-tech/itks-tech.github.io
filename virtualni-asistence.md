@@ -5,7 +5,7 @@ classes: va-style
 permalink: /virtualni-asistence/
 ---
 
-# Virtuální asistence – Růžena Sukeníková
+# Růžena Sukeníková
 
 ## Moderní administrativní podpora pro podnikatele a organizace
 
@@ -27,4 +27,5 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 
 ### Kontakt
 *(doplní tvoje žena)*
+
 
