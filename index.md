@@ -1,25 +1,26 @@
 ---
 layout: single
-title: "IT správa & infrastruktura"
+title: "IT sprÃ¡va & infrastruktura"
 classes: it-style
 ---
 
-# IT správa & infrastruktura
+# IT sprÃ¡va & infrastruktura
 
-## Profesionální správa serverù, sítí a IT infrastruktury
+## ProfesionÃ¡lnÃ­ sprÃ¡va serverÅ¯, sÃ­tÃ­ a IT infrastruktury
 
-Poskytuji komplexní správu IT prostøedí pro organizace, firmy a veøejnou správu.  
-Zamìøuji se na stabilitu, bezpeènost a dlouhodobou spolehlivost systémù.
+Poskytuji komplexnÃ­ sprÃ¡vu IT prostÅ™edÃ­ pro organizace, firmy a veÅ™ejnou sprÃ¡vu.  
+ZamÄ›Å™uji se na stabilitu, bezpeÄnost a dlouhodobou spolehlivost systÃ©mÅ¯.
 
-### Co nabízím
-- Správa serverù (Windows / Linux)
-- Správa sítí, firewallù a VPN
-- Monitoring a údrba
-- Zálohování a bezpeènost
-- Správa koncovıch stanic (jen pro smluvní klienty)
+### Co nabÃ­zÃ­m
+- SprÃ¡va serverÅ¯ (Windows / Linux)
+- SprÃ¡va sÃ­tÃ­, firewallÅ¯ a VPN
+- Monitoring a ÃºdrÅ¾ba
+- ZÃ¡lohovÃ¡nÃ­ a bezpeÄnost
+- SprÃ¡va koncovÃ½ch stanic (jen pro smluvnÃ­ klienty)
 
-### Proè spolupracovat se mnou
-- praxe v komerèním i veøejném sektoru
-- individuální pøístup
-- rychlá reakèní doba
-- dùraz na bezpeènost a prevenci
+### ProÄ spolupracovat se mnou
+- praxe v komerÄnÃ­m i veÅ™ejnÃ©m sektoru
+- individuÃ¡lnÃ­ pÅ™Ã­stup
+- rychlÃ¡ reakÄnÃ­ doba
+
+- dÅ¯raz na bezpeÄnost a prevenci 
