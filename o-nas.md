@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "O nás"
+title: "O nÃ¡s"
 classes: it-style
 ---
 
-Jsme dvojice specialistù poskytující profesionální IT správu a moderní virtuální asistenci.  
-Kombinujeme technické zkušenosti s administrativní podporou, abychom klientùm nabídli komplexní sluby na jednom místì.
+Jsme dvojice specialistÅ¯ poskytujÃ­cÃ­ profesionÃ¡lnÃ­ IT sprÃ¡vu a modernÃ­ virtuÃ¡lnÃ­ asistenci.  
+Kombinujeme technickÃ© zkuÅ¡enosti s administrativnÃ­ podporou, abychom klientÅ¯m nabÃ­dli komplexnÃ­ sluÅ¾by na jednom mÃ­stÄ›.
