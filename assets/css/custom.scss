@@ -1,15 +1,6 @@
 ---
 ---
 
-/* Schovat název webu v menu – všechny varianty */
-.site-title,
-.site-title a,
-.masthead__inner-wrap .site-title,
-.masthead__menu .site-title {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  width: 0 !important;
-  overflow: hidden !important;
+body {
+  background: red !important;
 }
