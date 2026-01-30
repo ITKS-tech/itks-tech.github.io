@@ -23,4 +23,5 @@ sidebar:
   nav: "main"
 
 include:
-  - assets/css/custom.css
+  - assets/css/custom.scss
+
