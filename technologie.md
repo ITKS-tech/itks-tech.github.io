@@ -2,6 +2,7 @@
 layout: single
 title: "Technologie"
 classes: it-style
+permalink: /technologie/
 ---
 
 ## Servery a virtualizace
@@ -19,3 +20,4 @@ classes: it-style
 ## Cloud a služby
 - Microsoft 365
 - Azure AD (základní integrace)
+
