@@ -5,6 +5,6 @@ categories: [navody]
 classes: it-style
 ---
 
-Tady bude text návodu…
+Tady bude text nÃ¡voduâ€¦
 
-![Schéma VPN](/assets/images/vpn-schema.png)
+![SchÃ©ma VPN](/assets/images/vpn-schema.png)
