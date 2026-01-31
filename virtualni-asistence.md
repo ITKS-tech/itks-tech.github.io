@@ -29,7 +29,7 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 ### Kontakt
 **E-mail:** sukenikova@itks.cz  
 **Telefon:** +420602427966  
-**Lokalita:** Moravskoslezský kraj
+
 
 
 
