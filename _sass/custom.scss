@@ -7,3 +7,12 @@
   border-radius: 50%; /* vytvoří stejný ovál jako u <img> */
   pointer-events: none;
 }
+.img-protect-rs {
+  width: 250px;
+  height: 312px; /* přesně podle původního poměru stran */
+  background-image: url('/assets/images/PodpisRS.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* vytvoří stejný ovál jako u <img> */
+  pointer-events: none;
+}
