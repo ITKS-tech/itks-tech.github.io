@@ -1,1 +1,13 @@
+---
+---
 
+/* tvoje vlastní úpravy */
+body {
+  background: red !important;
+}
+
+img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
