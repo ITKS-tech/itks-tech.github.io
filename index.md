@@ -5,9 +5,11 @@ classes: it-style
 permalink: /
 ---
 
-<p style="text-align:left;">
-  <img src="/assets/images/PodpisKS.jpg" width="250" style="border-radius:50%;">
-</p>
+<div class="protected">
+  <p style="text-align:left;">
+    <img src="/assets/images/PodpisKS.jpg" width="250" style="border-radius:50%;">
+  </p>
+</div>
 
 # Kamil Sukeník
 
@@ -28,5 +30,6 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - individuální přístup
 - rychlá reakční doba
 - důraz na bezpečnost a prevenci
+
 
 
