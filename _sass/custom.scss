@@ -1,9 +1,9 @@
 .img-protect {
   width: 250px;
-  height: 250px;
+  height: 357px; /* přesně podle původního poměru stran */
   background-image: url('/assets/images/PodpisKS.jpg');
   background-size: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 50%; /* vytvoří stejný ovál jako u <img> */
   pointer-events: none;
 }
