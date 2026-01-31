@@ -26,8 +26,6 @@ sidebar:
 sass:
   style: compressed
 
-include:
-  - assets/css/custom.scss
 
 
 
