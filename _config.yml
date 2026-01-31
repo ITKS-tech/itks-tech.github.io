@@ -1,4 +1,5 @@
-remote_theme: "mmistakes/minimal-mistakes"
+title: "IT & Virtuální asistence"
+theme: minimal-mistakes-jekyll
 
 logo: /assets/images/favicon.png
 
@@ -27,6 +28,7 @@ sass:
 
 include:
   - assets/css/custom.scss
+
 
 
 
