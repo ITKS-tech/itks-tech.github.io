@@ -1,4 +1,4 @@
-title: "IT & Virtuální asistence"
+title: ""
 remote_theme: "mmistakes/minimal-mistakes"
 
 logo: /assets/images/favicon.png
@@ -26,6 +26,7 @@ sidebar:
 sass:
   sass_dir: _sass
   style: compressed
+
 
 
 
