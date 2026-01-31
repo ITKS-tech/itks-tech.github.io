@@ -1,22 +1,9 @@
-.protected {
-  position: relative;
-  display: inline-block;
-}
-
-.protected img {
+.img-protect {
+  width: 250px;
+  height: 250px;
+  background-image: url('/assets/images/PodpisKS.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
   pointer-events: none;
-  -webkit-user-drag: none;
-  user-select: none;
-}
-
-.protected::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: transparent;
-  pointer-events: auto;
 }
