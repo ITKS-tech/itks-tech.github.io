@@ -3,6 +3,12 @@
   display: inline-block;
 }
 
+.protected img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 .protected::after {
   content: "";
   position: absolute;
@@ -10,6 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 9999;
   background: transparent;
   pointer-events: auto;
 }
