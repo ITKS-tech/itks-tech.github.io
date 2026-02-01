@@ -11,7 +11,7 @@ permalink: /technologie/
 - Hyper-V
 - VMware
 
-## Sítì
+## Sítě
 - Mikrotik
 - Ubiquiti
 - VPN
@@ -20,4 +20,5 @@ permalink: /technologie/
 ## Cloud a služby
 - Microsoft 365
 - Azure AD (základní integrace)
+
 
