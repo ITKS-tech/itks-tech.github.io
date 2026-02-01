@@ -9,14 +9,13 @@ permalink: /
 
 # Kamil Sukeník
 
+<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
+<a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
+
 ## Profesionální správa serverů, sítí a IT infrastruktury
 
 Poskytuji komplexní správu IT prostředí pro organizace, firmy a veřejnou správu.  
 Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
-
-<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
-<a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
-
 
 ### Co nabízím
 - Správa serverů (Windows / Linux)
@@ -30,6 +29,9 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - individuální přístup
 - rychlá reakční doba
 - důraz na bezpečnost a prevenci
+
+<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
+<a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
 
 
 
