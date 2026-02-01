@@ -15,7 +15,7 @@ Poskytuji komplexní správu IT prostředí pro organizace, firmy a veřejnou sp
 Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
-<a href="tel:+420123456789" class="btn btn--large">Zavolat</a>
+<a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
 
 
 ### Co nabízím
@@ -30,6 +30,7 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - individuální přístup
 - rychlá reakční doba
 - důraz na bezpečnost a prevenci
+
 
 
 
