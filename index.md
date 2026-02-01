@@ -8,7 +8,7 @@ permalink: /
 <div class="img-protect" style="text-align:left;"></div>  
 
 
-# Kamil Sukeník
+## Kamil Sukeník
 
 <a href="/kontakt/" class="btn btn--primary btn--large" style="margin-bottom: 1rem;">Kontaktujte mě</a>
 <a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
@@ -18,8 +18,7 @@ permalink: /
 Poskytuji komplexní správu IT prostředí pro organizace, firmy a veřejnou správu.  
 Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
-- ### Co nabízím
-
+### Co nabízím
 - 🖥 **Správa serverů** (Windows / Linux)
 - 🌐 **Správa sítí, firewallů a VPN**
 - 📈 **Monitoring a údržba**
@@ -36,6 +35,7 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
 <a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
+
 
 
 
