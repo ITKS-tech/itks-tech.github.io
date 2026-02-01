@@ -7,7 +7,7 @@ permalink: /reference/
 
 ## Reference
 
-### Veřejná správa
+### Veřejná správa a školství
 ICT správce – správa serverů, sítí, bezpečnosti a uživatelské podpory.
 
 ### Organizace v regionu
@@ -18,4 +18,5 @@ Dlouhodobá správa serverů, sítí a koncových stanic.
 - bezpečnost
 - prevence výpadků
 - rychlá reakce
+
 
