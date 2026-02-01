@@ -14,6 +14,10 @@ permalink: /
 Poskytuji komplexní správu IT prostředí pro organizace, firmy a veřejnou správu.  
 Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
+<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
+<a href="tel:+420123456789" class="btn btn--large">Zavolat</a>
+
+
 ### Co nabízím
 - Správa serverů (Windows / Linux)
 - Správa sítí, firewallů a VPN
@@ -26,6 +30,9 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 - individuální přístup
 - rychlá reakční doba
 - důraz na bezpečnost a prevenci
+
+
+
 
 
 
