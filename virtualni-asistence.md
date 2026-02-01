@@ -6,6 +6,7 @@ permalink: /virtualni-asistence/
 ---
 
 <div class="img-protect-rs" style="text-align:left;"></div>
+
 # Růžena Sukeníková
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
@@ -37,6 +38,7 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
 <a href="tel:+420602427966" class="btn btn--large">Zavolat</a>
+
 
 
 
