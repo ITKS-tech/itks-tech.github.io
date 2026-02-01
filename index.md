@@ -7,7 +7,7 @@ permalink: /
 
 <div class="img-protect" style="text-align:left;"></div>  
 
-## Kamil Sukeník
+# Kamil Sukeník
 
 <a href="/kontakt/" class="btn btn--primary btn--large" style="margin-bottom: 1rem;">Kontaktujte mě</a>
 <a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
@@ -34,6 +34,7 @@ Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
 <a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
+
 
 
 
