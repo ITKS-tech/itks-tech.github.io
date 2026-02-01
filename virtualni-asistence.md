@@ -27,8 +27,9 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 - individuální přístup
 
 ### Kontakt
-**E-mail:** <a href="mailto:sukenikova@itks.cz">Růžena Sukeníková</a>  
-**Telefon:** +420602427966  
+**E-mail:** <a href="mailto:sukenikova@itks.cz?subject=Poptávka%20na%20virtuální%20asistenci&body=Dobrý%20den,%0A%0Amám%20zájem%20o%20virtuální%20asistenci.%20Prosím%20o%20více%20informací.%0A%0ADěkuji.">sukenikova@itks.cz</a>  
+**Telefon:** +420602427966
+
 
 
 
