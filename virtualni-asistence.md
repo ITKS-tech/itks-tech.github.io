@@ -12,6 +12,9 @@ permalink: /virtualni-asistence/
 
 Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly, které vám ušetří čas a umožní soustředit se na vaše podnikání.
 
+<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
+<a href="tel:+420602427966" class="btn btn--large">Zavolat</a>
+
 ### S čím mohu pomoci
 - e-mailová komunikace
 - správa kalendáře a schůzek
@@ -31,6 +34,7 @@ Pomáhám s administrativou, komunikací, organizací agendy a dalšími úkoly,
 
 **E-mail:** <a href="mailto:sukenikova@itks.cz?subject=Poptávka%20na%20virtuální%20asistenci&body=Dobrý%20den,%0A%0Amám%20zájem%20o%20virtuální%20asistenci.%20Prosím%20o%20více%20informací.%0A%0ADěkuji.">sukenikova@itks.cz</a>  
 **Telefon:** +420602427966
+
 
 
 
