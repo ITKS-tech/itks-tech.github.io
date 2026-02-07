@@ -6,16 +6,18 @@ permalink: /
 header:
   overlay_image: /assets/images/heroITKS.png
   overlay_filter: 0.3
-  caption: "Profesionální správa serverů, sítí a IT infrastruktury"
-excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 ---
+# IT správa & infrastruktura
+
+## Profesionální správa serverů, sítí a IT infrastruktury
+Komplexní IT služby pro firmy, organizace a veřejnou správu.
 
 ### Co nabízím
-- 🖥 **Správa serverů** (Windows / Linux)
-- 🌐 **Správa sítí, firewallů a VPN**
-- 📈 **Monitoring a údržba**
-- 💾 **Zálohování a bezpečnost**
-- 🖱 **Správa koncových stanic** (jen pro smluvní klienty)
+- 🖥 Správa serverů (Windows / Linux)
+- 🌐 Správa sítí, firewallů a VPN
+- 📈 Monitoring a údržba
+- 💾 Zálohování a bezpečnost
+- 🖱 Správa koncových stanic (jen pro smluvní klienty)
 
 ### Proč spolupracovat se mnou
 - praxe v komerčním i veřejném sektoru
@@ -27,19 +29,3 @@ excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 
 <a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
 <a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
