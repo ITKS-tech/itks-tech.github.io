@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: ""
+title: "IT správa & infrastruktura"
 classes: it-style
 permalink: /
 hide_title: true
@@ -9,7 +9,6 @@ header:
   overlay_filter: 0.3
   show_overlay_title: false
 ---
-# IT správa & infrastruktura
 
 ## Profesionální správa serverů, sítí a IT infrastruktury
 Komplexní IT služby pro firmy, organizace a veřejnou správu.
