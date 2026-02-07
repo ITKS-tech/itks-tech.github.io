@@ -7,6 +7,8 @@ header:
   overlay_image: /assets/images/heroITKS.png
   overlay_filter: 0.3
   show_overlay_title: false
+  hide_title: true  
+
 ---
 # IT správa & infrastruktura
 
