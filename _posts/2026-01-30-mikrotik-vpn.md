@@ -4,7 +4,7 @@ title: "Jak nastavit Mikrotik WireGuard VPN"
 categories: [navody]
 classes: it-style
 gallery: true
-toc: true
+toc: false
 ---
 
 WireGuard je moderní, rychlá a jednoduchá VPN technologie, která je dostupná na zařízení MikroTik od systému RouterOS 7. Oproti klasickému IPsec je výrazně jednodušší na konfiguraci, stabilnější, má nižší latenci, lépe funguje s mobilními zařízeními a poskytuje vyšší výkon i na slabším hardwaru. Níže najdete kompletní návod na vytvoření WireGuard VPN pro vzdálený přístup do sítě.
@@ -82,7 +82,7 @@ otevřít interní zdroje
 
 Pokud funguje, VPN je správně nastavena.
 
-### Hlavní výhody WireGuard oproti IPsec
+Hlavní výhody WireGuard oproti IPsec
 1) Extrémně jednoduchá konfigurace
 IPsec vyžaduje IKE profily, politiky, SA, encryption proposals, lifetime nastavení a další komplikace.
 WireGuard má pouze:
@@ -125,4 +125,4 @@ nižší latenci (nižší overhead)
 stabilnější rychlosti
 téměř okamžitý „handshake“
 
-{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" enlarge=true" %}
+![Schéma VPN](/assets/images/vpn-schema.png)
