@@ -1,21 +1,16 @@
 ---
-layout: single
+layout: splash
 title: "IT správa & infrastruktura"
 classes: it-style
 permalink: /
 ---
 
-<div class="img-protect" style="text-align:left;"></div>  
+header:
+  overlay_image: /assets/images/heroITKS.png
+  overlay_filter: 0.3
+  caption: "Profesionální správa serverů, sítí a IT infrastruktury"
+excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 
-# Kamil Sukeník
-
-<a href="/kontakt/" class="btn btn--primary btn--large">Kontaktujte mě</a>
-<a href="tel:+420607833285" class="btn btn--large">Zavolat</a>
-
-## Profesionální správa serverů, sítí a IT infrastruktury
-
-Poskytuji komplexní správu IT prostředí pro organizace, firmy a veřejnou správu.  
-Zaměřuji se na stabilitu, bezpečnost a dlouhodobou spolehlivost systémů.
 
 ### Co nabízím
 - 🖥 **Správa serverů** (Windows / Linux)
