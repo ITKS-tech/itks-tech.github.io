@@ -10,12 +10,17 @@ header:
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 feature_row:
   - image_path: /assets/icons/server.svg
+    image_class: "feature-icon"
     title: "Správa serverů"
     excerpt: "Windows, Linux, virtualizace, monitoring a údržba."
+
   - image_path: /assets/icons/network.svg
+    image_class: "feature-icon"
     title: "Správa sítí"
     excerpt: "Firewally, VPN, Wi‑Fi, bezpečnost a konfigurace."
+
   - image_path: /assets/icons/security.svg
+    image_class: "feature-icon"
     title: "Bezpečnost"
     excerpt: "Zálohování, ochrana dat, prevence a audit."
 ---
