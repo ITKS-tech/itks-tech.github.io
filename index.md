@@ -6,6 +6,7 @@ permalink: /
 header:
   overlay_image: /assets/images/heroITKS.png
   overlay_filter: 0.3
+  show_overlay_title: false
 ---
 # IT správa & infrastruktura
 
