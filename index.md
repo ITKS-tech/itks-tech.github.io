@@ -3,11 +3,11 @@ layout: splash
 title: "IT správa & infrastruktura"
 classes: it-style
 permalink: /
-hide_title: true
 header:
   overlay_image: /assets/images/HeroITKS.jpeg
   overlay_filter: 0.3
-  show_overlay_title: false
+  caption: "Profesionální správa serverů, sítí a IT infrastruktury"
+excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 ---
 
 ## Profesionální správa serverů, sítí a IT infrastruktury
