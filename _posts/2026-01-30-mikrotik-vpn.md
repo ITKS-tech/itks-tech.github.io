@@ -123,5 +123,4 @@ nižší latenci (nižší overhead)
 stabilnější rychlosti
 téměř okamžitý „handshake“
 
-![Schéma VPN](/assets/images/vpn-schema.png)
-{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" caption="Schéma VPN WireGuard" %}
+{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" enlarge=true classes="img-protect" %}
