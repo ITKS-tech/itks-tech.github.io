@@ -35,6 +35,8 @@
 }
 
 .feature-icon {
-  width: 64px;
-  height: 64px;
+  width: 64px !important;
+  height: 64px !important;
+  object-fit: contain;
 }
+
