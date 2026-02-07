@@ -34,9 +34,10 @@
   margin: 1.5rem 0;
 }
 
-.feature-icon {
+.feature__image img {
   width: 64px !important;
   height: 64px !important;
   object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
-
