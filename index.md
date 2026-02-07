@@ -9,21 +9,21 @@ header:
   caption: "Profesionální správa serverů, sítí a IT infrastruktury"
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 feature_row:
-  - image_path: /assets/icons/server.svg
+  - image_path: /assets/icons/server.png
     image_class: "feature-icon"
     image_width: 64
     image_height: 64
     title: "Správa serverů"
     excerpt: "Windows, Linux, virtualizace, monitoring a údržba."
 
-  - image_path: /assets/icons/network.svg
+  - image_path: /assets/icons/network.png
     image_class: "feature-icon"
     image_width: 64
     image_height: 64
     title: "Správa sítí"
     excerpt: "Firewally, VPN, Wi‑Fi, bezpečnost a konfigurace."
 
-  - image_path: /assets/icons/security.svg
+  - image_path: /assets/icons/security.png
     image_class: "feature-icon"
     image_width: 64
     image_height: 64
