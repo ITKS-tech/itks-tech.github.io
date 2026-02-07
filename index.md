@@ -10,9 +10,6 @@ header:
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 ---
 
-## Profesionální správa serverů, sítí a IT infrastruktury
-Komplexní IT služby pro firmy, organizace a veřejnou správu.
-
 ### Co nabízím
 - 🖥 Správa serverů (Windows / Linux)
 - 🌐 Správa sítí, firewallů a VPN
