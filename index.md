@@ -5,7 +5,7 @@ classes: it-style
 permalink: /
 hide_title: true
 header:
-  overlay_image: /assets/images/HeroITKS.jpg
+  overlay_image: /assets/images/HeroITKS.jpeg
   overlay_filter: 0.3
   show_overlay_title: false
 ---
