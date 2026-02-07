@@ -19,6 +19,7 @@ feature_row:
     title: "Bezpečnost"
     excerpt: "Zálohování, ochrana dat, prevence a audit."
 ---
+
 {% include feature_row %}
 
 ### Co nabízím
