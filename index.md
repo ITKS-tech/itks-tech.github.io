@@ -1,14 +1,13 @@
 ---
 layout: splash
-title: "IT správa & infrastruktura"
+title: ""
 classes: it-style
 permalink: /
+hide_title: true
 header:
   overlay_image: /assets/images/heroITKS.png
   overlay_filter: 0.3
   show_overlay_title: false
-  hide_title: true  
-
 ---
 # IT správa & infrastruktura
 
