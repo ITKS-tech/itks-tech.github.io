@@ -82,7 +82,7 @@ otevřít interní zdroje
 
 Pokud funguje, VPN je správně nastavena.
 
-Hlavní výhody WireGuard oproti IPsec
+### Hlavní výhody WireGuard oproti IPsec
 1) Extrémně jednoduchá konfigurace
 IPsec vyžaduje IKE profily, politiky, SA, encryption proposals, lifetime nastavení a další komplikace.
 WireGuard má pouze:
@@ -125,4 +125,4 @@ nižší latenci (nižší overhead)
 stabilnější rychlosti
 téměř okamžitý „handshake“
 
-{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" enlarge=true classes="img-protect" %}
+{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" enlarge=true" %}
