@@ -8,30 +8,8 @@ header:
   overlay_filter: 0.3
   caption: "Profesionální správa serverů, sítí a IT infrastruktury"
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
-feature_row:
-  - image_path: /assets/icons/server.png
-    image_class: "feature-icon"
-    image_width: 64
-    image_height: 64
-    title: "Správa serverů"
-    excerpt: "Windows, Linux, virtualizace, monitoring a údržba."
 
-  - image_path: /assets/icons/network.png
-    image_class: "feature-icon"
-    image_width: 64
-    image_height: 64
-    title: "Správa sítí"
-    excerpt: "Firewally, VPN, Wi‑Fi, bezpečnost a konfigurace."
-
-  - image_path: /assets/icons/security.png
-    image_class: "feature-icon"
-    image_width: 64
-    image_height: 64
-    title: "Bezpečnost"
-    excerpt: "Zálohování, ochrana dat, prevence a audit."
 ---
-
-{% include feature_row %}
 
 ### Co nabízím
 - 🖥 Správa serverů (Windows / Linux)
