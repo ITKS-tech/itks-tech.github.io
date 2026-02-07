@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Jak nastavit Mikrotik VPN"
+title: "Jak nastavit Mikrotik WireGuard VPN"
 categories: [navody]
 classes: it-style
 ---
@@ -124,3 +124,4 @@ stabilnější rychlosti
 téměř okamžitý „handshake“
 
 ![Schéma VPN](/assets/images/vpn-schema.png)
+{% include figure image_path="/assets/images/vpn-schema.png" alt="Schéma VPN" caption="Schéma VPN WireGuard" %}
