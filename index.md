@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "IT správa Kamil Sukeník"      
+title: "IT správa Kamil Sukeník"
 classes: it-style
 permalink: /
 header:
