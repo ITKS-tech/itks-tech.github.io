@@ -9,7 +9,7 @@ toc: false
 
 WireGuard je moderní, rychlá a jednoduchá VPN technologie, která je dostupná na zařízení MikroTik od systému RouterOS 7. Oproti klasickému IPsec je výrazně jednodušší na konfiguraci, stabilnější, má nižší latenci, lépe funguje s mobilními zařízeními a poskytuje vyšší výkon i na slabším hardwaru. Níže najdete kompletní návod na vytvoření WireGuard VPN pro vzdálený přístup do sítě.
 
-1) Ověření verze RouterOS
+## 1) Ověření verze RouterOS
 WireGuard funguje pouze na RouterOS 7 a vyšším.
 Verzi ověříte příkazem:
 /system resource print
