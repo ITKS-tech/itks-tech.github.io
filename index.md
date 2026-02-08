@@ -8,6 +8,7 @@ header:
   overlay_filter: 0.3
   caption: "Profesionální správa serverů, sítí a IT infrastruktury"
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
+description: "IT správa, sítě, servery, počítače a zabezpečení – Opava a okolí."
 
 ---
 
