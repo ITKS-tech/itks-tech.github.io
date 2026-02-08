@@ -16,7 +16,7 @@ Verzi ověříte příkazem:
 
 Pokud máte verzi 6, je nutná aktualizace.
 
-2) Vytvoření WireGuard rozhraní
+## 2) Vytvoření WireGuard rozhraní
 Vytvořte nové WireGuard rozhraní.
 Ve WinBoxu: Interfaces → Add → WireGuard
 Nebo přes terminál:
@@ -25,20 +25,20 @@ Nebo přes terminál:
 Port 51820/UDP je výchozí, ale lze změnit.
 WireGuard automaticky vygeneruje páry klíčů (public/private).
 
-3) Zobrazení klíčů rozhraní
+## 3) Zobrazení klíčů rozhraní
 Pro zobrazení vygenerovaných klíčů zadejte:
 /interface wireguard print
 
 Public Key budete posílat klientovi.
 Private Key musí zůstat v routeru.
 
-4) Přidání IP adresy pro WireGuard síť
+## 4) Přidání IP adresy pro WireGuard síť
 Vytvoříte síť pro klienty, např. 10.10.10.0/24:
 /ip address add address=10.10.10.1/24 interface=wg0
 
 10.10.10.1 bude adresa routeru v rámci VPN.
 
-5) Přidání klienta (peer)
+## 5) Přidání klienta (peer)
 Každý klient musí mít vlastní public key a vlastní IP adresu.
 Příklad klienta s IP 10.10.10.2:
 /interface wireguard peers add interface=wg0 \
@@ -46,18 +46,18 @@ public-key="PUBLIC_KEY_KLIENTA" \
 allowed-address=10.10.10.2/32
 
 
-6) Povolení WireGuard portu ve firewallu
+## 6) Povolení WireGuard portu ve firewallu
 Bez tohoto pravidla se nikdo nepřipojí:
 /ip firewall filter add chain=input action=accept protocol=udp dst-port=51820 comment="Allow WireGuard"
 
 
-7) NAT pro přístup klientů na internet přes VPN
+## 7) NAT pro přístup klientů na internet přes VPN
 Toto umožní, aby klienti využívali internet přes Mikrotik WAN:
 /ip firewall nat add chain=srcnat action=masquerade src-address=10.10.10.0/24 out-interface=ether1
 
 (ether1 = vaše WAN)
 
-8) Konfigurace klienta (mobil, PC, notebook)
+## 8) Konfigurace klienta (mobil, PC, notebook)
 Na zařízení použijete oficiální WireGuard aplikaci.
 Do klienta vložíte konfiguraci:
 [Interface]
@@ -73,7 +73,7 @@ PersistentKeepalive = 25
 
 AllowedIPs = 0.0.0.0/0 znamená, že veškerý provoz půjde přes VPN.
 
-9) Otestování spojení
+## 9) Otestování spojení
 Z klienta zkuste:
 
 připojit WireGuard
@@ -82,8 +82,8 @@ otevřít interní zdroje
 
 Pokud funguje, VPN je správně nastavena.
 
-Hlavní výhody WireGuard oproti IPsec
-1) Extrémně jednoduchá konfigurace
+### Hlavní výhody WireGuard oproti IPsec
+## 1) Extrémně jednoduchá konfigurace
 IPsec vyžaduje IKE profily, politiky, SA, encryption proposals, lifetime nastavení a další komplikace.
 WireGuard má pouze:
 
@@ -94,12 +94,12 @@ AllowedIPs
 
 Konfigurace je tak 10× jednodušší.
 
-2) Vysoká rychlost
+## 2) Vysoká rychlost
 WireGuard využívá moderní kryptografii (ChaCha20), která je rychlá i na slabém hardwaru.
 MikroTik s IPsec může dávat 30–150 Mbps.
 MikroTik s WireGuard často zvládne 200–600 Mbps a více.
 
-3) Stabilita a perfektní mobilní použití
+## 3) Stabilita a perfektní mobilní použití
 WireGuard umí:
 
 měnit IP adresy za běhu
@@ -108,7 +108,7 @@ perfektně fungovat při přepínání mezi Wi‑Fi/LTE
 
 IPsec často padá při změně sítě nebo NAT.
 
-4) Modernější a bezpečnější architektura
+## 4) Modernější a bezpečnější architektura
 WireGuard používá:
 
 ChaCha20
@@ -118,7 +118,7 @@ velmi čistý, malý a auditovatelný kód
 
 IPsec má obrovsky složitý stack a více historických problémů.
 
-5) Nižší latence a vyšší propustnost
+## 5) Nižší latence a vyšší propustnost
 WireGuard má typicky:
 
 nižší latenci (nižší overhead)
