@@ -1,6 +1,7 @@
+
 ---
 layout: splash
-title: "IT správa & infrastruktura"
+title: "IT správa Kamil Sukeník"
 classes: it-style
 permalink: /
 header:
@@ -9,8 +10,8 @@ header:
   caption: "Profesionální správa serverů, sítí a IT infrastruktury"
 excerpt: "Komplexní IT služby pro firmy, organizace a veřejnou správu."
 description: "IT správa, sítě, servery, počítače a zabezpečení – Opava a okolí."
-
 ---
+# IT správa & infrastruktura
 
 ### Co nabízím
 - 🖥 Správa serverů (Windows / Linux)
