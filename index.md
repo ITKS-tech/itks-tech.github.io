@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 title: "IT správa Kamil Sukeník"
