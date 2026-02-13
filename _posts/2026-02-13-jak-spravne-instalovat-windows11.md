@@ -9,10 +9,10 @@ toc: false
 
 Tento postup je nejlepší cestou k čistému systému bez omezení od Microsoftu. Získáte stabilnější zavaděč a vyhnete se povinnému online účtu.
 
-## Jak správně nainstalovat Windows 11
+### Jak správně nainstalovat Windows 11
 750MB EFI a lokální účet příkazem „ms-cxh“
 
-## 1. Ruční příprava disku (750MB EFI)
+### 1. Ruční příprava disku (750MB EFI)
 Na úvodní obrazovce instalátoru (výběr jazyka) stiskněte Shift + F10 pro otevření příkazového řádku:
 Zadejte diskpart.
 list disk (najděte svůj disk, např. 0).
@@ -27,7 +27,8 @@ V grafickém průvodci:
 Zvolte Vlastní instalaci.
 Klikněte na „Nepřiřazené místo“ a dejte Další.
 Windows si zbytek místa rozdělí sám – vytvoří oddíl C: a na konec disku umístí Recovery oddíl.
-## 2. Obejití Microsoft účtu (Příkaz ms-cxh)
+
+### 2. Obejití Microsoft účtu (Příkaz ms-cxh)
 Jakmile se po instalaci a restartu objeví obrazovka OOBE (výběr regionu nebo sítě):
 Znovu stiskněte Shift + F10.
 Zadejte tento specifický příkaz a potvrďte Enterem:
@@ -35,14 +36,15 @@ start ms-cxh:localonly (případně variantu start ms-cxh:localonlyuser)
 Co se stane: Tento příkaz vyvolá skrytý protokol v systému, který okamžitě ukončí vynucování online účtu.
 Průvodce vás nyní hodí přímo na obrazovku „Kdo bude tento počítač používat?“.
 Zadejte jméno svého lokálního účtu, heslo a hotovo.
-## 3. Kontrola po instalaci
+
+### 3. Kontrola po instalaci
 Po naběhnutí na plochu doporučujeme prověřit dvě věci:
 Správa disků: Pravým tlačítkem na Start -> Správa disků. Zde uvidíte svůj 750 MB EFI oddíl na začátku a Recovery na konci.
 Stav obnovy: V Terminálu (jako správce) zadejte reagentc /info. Pokud uvidíte Windows RE status: Enabled, Recovery oddíl je správně propojen se systémem.
 Tímto postupem jste vytvořili technicky nejčistší možnou instalaci Windows 11, která je odolná proti chybám při budoucích aktualizacích (jako byla známá chyba KB5034441 s malým oddílem).
 Chcete pomoci i s vypnutím automatické instalace sponzorovaných aplikací (jako Candy Crush nebo TikTok), které se tam po prvním připojení k netu mohou objevit?
 
-## Kompletní příkazy v Diskpartu:
+### Kompletní příkazy v Diskpartu:
 
 Čisté naformátování jakéhokoliv disku přes Diskpart:
 
