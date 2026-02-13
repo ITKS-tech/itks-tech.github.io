@@ -5,7 +5,7 @@ categories: [navody]
 classes: it-style
 gallery: true
 toc: false
----
+---  
 
 ##Jak správně nainstalovat Windows 11
 
