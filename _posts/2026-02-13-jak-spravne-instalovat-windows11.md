@@ -48,9 +48,8 @@ Zadejte jméno svého lokálního účtu, heslo a hotovo.
 ### 3. Kontrola po instalaci
 Po naběhnutí na plochu doporučujeme prověřit dvě věci:
 Správa disků: Pravým tlačítkem na Start -> Správa disků. Zde uvidíte svůj 750 MB EFI oddíl na začátku a Recovery na konci.
-Stav obnovy: V Terminálu (jako správce) zadejte reagentc /info. Pokud uvidíte Windows RE status: Enabled, Recovery oddíl je správně propojen se systémem.
+Stav obnovy: V Terminálu (jako správce) zadejte **reagentc /info**. Pokud uvidíte Windows RE status: Enabled, Recovery oddíl je správně propojen se systémem.
 Tímto postupem jste vytvořili technicky nejčistší možnou instalaci Windows 11, která je odolná proti chybám při budoucích aktualizacích (jako byla známá chyba KB5034441 s malým oddílem).
-Chcete pomoci i s vypnutím automatické instalace sponzorovaných aplikací (jako Candy Crush nebo TikTok), které se tam po prvním připojení k netu mohou objevit?
 
 ### Kompletní příkazy v Diskpartu:
 
