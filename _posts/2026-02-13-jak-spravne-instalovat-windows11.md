@@ -13,10 +13,9 @@ Tento postup je nejlepší cestou k čistému systému bez omezení od Microsoft
 750MB EFI a lokální účet příkazem „ms-cxh“
 
 ### 1. Ruční příprava disku (750MB EFI)
-Na úvodní obrazovce instalátoru (výběr jazyka) stiskněte 
-`Shift + F10`
- pro otevření příkazového řádku:
-Zadejte diskpart.
+Na úvodní obrazovce instalátoru (výběr jazyka) stiskněte `Shift + F10`
+pro otevření příkazového řádku:
+Zadejte `diskpart.`
 ```
 list disk (najděte svůj disk, např. 0).
 select disk 0 (použijte číslo svého disku).
