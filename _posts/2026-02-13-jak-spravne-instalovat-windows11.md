@@ -14,9 +14,7 @@ Tento postup je nejlepší cestou k čistému systému bez omezení od Microsoft
 
 ### 1. Ruční příprava disku (750MB EFI)
 Na úvodní obrazovce instalátoru (výběr jazyka) stiskněte 
-`
-Shift + F10
-`
+`Shift + F10`
  pro otevření příkazového řádku:
 Zadejte diskpart.
 ```
