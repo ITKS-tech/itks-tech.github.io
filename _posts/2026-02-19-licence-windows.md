@@ -7,6 +7,7 @@ gallery: true
 toc: false
 ---
 
+```
 slmgr /dlv
 # Detailní info o licenci – typ licence, aktivace, ID kanálu.
 
@@ -57,3 +58,4 @@ powershell "(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3x
 
 powershell "slmgr /dlv; slmgr /xpr; (Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey"
 # Souhrn všech informací o licenci v jednom výstupu.
+```
