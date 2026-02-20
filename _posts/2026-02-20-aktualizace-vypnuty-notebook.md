@@ -60,6 +60,52 @@ Pokud někdo pracuje
 → úloha se nespustí
 → NIC se nevypne
 
+# Nastavení pokud nejde nastavit RTC zapnutí
+
+## PŘESNÝ NÁVOD – krok za krokem
+### 1) Vypněte hibernaci
+Ať notebook používá jen spánek (S0ix).
+- Otevřete Start
+- napište cmd
+- klik pravým → Spustit jako správce
+- vložte:
+```
+powercfg /hibernate off
+```
+### 2) Zapněte „Wake timers“ (časovače probuzení)
+To je klíčové — Windows se díky tomu probudí sám.
+- Start → Nastavení
+- Systém → Napájení → Další nastavení napájení
+- U vašeho plánu klikněte Změnit nastavení plánu
+- Změnit pokročilé nastavení napájení
+- Najděte Sleep / Spánek
+- Otevřete Allow wake timers / Povolit časovače probuzení
+- Nastavte:
+- Na baterii: Povolit
+- Při napájení: Povolit
+
+### 3) Zapněte „Automatic Maintenance“ (automatická údržba)
+To je funkce, která v noci probudí notebook, nainstaluje aktualizace a zase ho uspí.
+- Otevřete Ovládací panely
+- Systém a zabezpečení
+- Zabezpečení a údržba
+- Rozbalte Údržba
+- Klikněte Změnit nastavení údržby
+- Nastavte čas, např. 03:00
+- Zaškrtněte:
+✔️ Povolit probuzení počítače pro provedení naplánované údržb
+
+### 4) Nastavte Windows Update, aby instaloval v noci
+- Start → Nastavení
+- Windows Update
+- Upřesnit možnosti
+- Zapněte:
+✔️ Download updates automatically
+✔️ Notify me when restart is required
+✔️ Active hours → Automaticky
+Windows pak restart provede mimo aktivní hodiny — tedy v noci.
+
+
 
 
  
