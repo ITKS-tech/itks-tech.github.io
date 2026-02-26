@@ -21,24 +21,26 @@ Data označená tagy (např. klientská internetová data) procházejí skrze vi
 
 ## Nastavení ve Winboxu (Krok za krokem)
 Pravidla definujeme v menu IP -> Firewall na záložce Filter Rules.
+
 ### 1. Povolení důvěryhodné MAC adresy
 Klikněte na modré "+" (Add New):
-Tab General:
+Tab General: 
 Chain: `forward`
-In. Interface: `ether21` (port, kam vede kabel ze switche)
+In. Interface: `ether21` (port, kam vede kabel ze switche) 
 Src. MAC Address: `xx:xx:xx:xx:xx:xx` (fyzická adresa vašeho switche)
-Tab Action:
+Tab Action: 
 Action: `accept`
+
 ### 2. Zákaz neoprávněného přístupu (Drop)
-Klikněte znovu na modré "+":
-Tab General:
-Chain: `forward`
-In. Interface: `ether21`
-Tab Action:
-Action: `drop`
+Klikněte znovu na modré "+": 
+Tab General: 
+Chain: `forward` 
+In. Interface: `ether21` 
+Tab Action: 
+Action: `drop` 
 Pořadí je klíčové: Pravidlo Accept musí být nad pravidlem Drop!
 
-###❗ Nutná podmínka: Vypnutí Hardware Offloadu
+### Nutná podmínka❗: Vypnutí Hardware Offloadu
 Aby MikroTik dokázal tyto pakety filtrovat ve Firewallu, nesmí je odbavovat přímo switch-chip. Pokud je zapnutý HW Offload, paket "obteče" procesor a pravidla se neaplikují.
 Postup deaktivace:
 Otevřete menu Bridge -> záložka Ports.
