@@ -20,6 +20,7 @@ Otevřete Příkazový řádek (CMD) s oprávněním správce.
 Přepněte se na písmeno jednotky zadáním E: (nahraďte vaším písmenem) a stiskněte Enter.
 Spusťte instalaci příkazem:
 ```
+e:
 setup.exe /product server
 ```
 Průběh upgradu: Instalátor se spustí s titulkem „Windows Server Setup“. To je v pořádku. Pokračujte v instalaci se zachováním souborů a aplikací. Po restartu vás přivítá standardní Windows 11 Home/Pro.
