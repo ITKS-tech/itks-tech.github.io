@@ -45,8 +45,11 @@ cmd
 bcdedit /set {bootmgr} device partition=S:
 bcdedit /set {memdiag} device partition=S:
 Při použití kódu buďte obezřetní.
-4. KROK: Úklid a aktivace
+```
+
+### 4. KROK: Úklid a aktivace
 Odebereme dočasné písmeno a restartujeme.
+```
 cmd
 diskpart
 select volume S
