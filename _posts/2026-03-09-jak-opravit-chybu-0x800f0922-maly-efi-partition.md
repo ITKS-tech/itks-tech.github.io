@@ -60,3 +60,12 @@ exit
 ### Finální krok: Restart a Boot Menu
 Při restartu vyvolejte Boot Menu (typicky klávesa `F9`, `F12` nebo `F11` podle výrobce). V seznamu vyberte Windows Boot Manager. Díky našemu nastavení se systém načte z nové 500MB partition.
 Jakmile Windows naběhnou, zkuste aktualizaci spustit znovu – nyní už projde hladce, protože má pro svůj život královských 500 MB prostoru. Původní 100MB partition můžete na disku nechat jako „mrtvou“ zálohu, ničemu nepřekáží.
+
+### tip na závěr
+Pokud máte notebook HP máte v EFI partition i ovladače výrobce, třeba BIOS nebo Dock. V tom případě překopírujte i celou složku HP.
+
+Připojte si písmenka starý oddíl Z: nový oddíl S: a použijte příkaz `Robocopy`
+
+robocopy Z:\EFI\HP S:\EFI\HP /E /R:3 /W:5
+
+Přeji Wám, ať okna šlapou, jak mají.
