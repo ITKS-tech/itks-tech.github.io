@@ -46,5 +46,5 @@ Při buzení už neposílej paket „naslepo“ na IP adresu daného PC (které 
 Cíl: 192.168.10.250 (IP MikroTiku v daném segmentu).
 MAC: MAC adresa PC, které chceš zapnout.
 
-##Výsledek: 
+## Výsledek: 
 MikroTik paket zachytí, díky ARP ho „rozstřelí“ po celé VLANě a PC se probudí. FortiGate přitom zůstává pánem situace, protože MikroTik má zakázáno cokoli jiného přeposílat.
