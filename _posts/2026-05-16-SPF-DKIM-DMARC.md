@@ -54,14 +54,14 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 2.	V sekci nastavení e-mailu nechte vygenerovat nový DKIM klíč.
 3.	Poskytovatel vám vygeneruje název (selektor, např. google._domainkey) a dlouhý textový řetězec (veřejný klíč).
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.
-________________________________________
-## 3. DMARC (Domain-based Message Authentication) – Řídící střecha 
+________________________________________  
+## 3. DMARC (Domain-based Message Authentication) – Řídící střecha  
 
-### Co to dělá
+### Co to dělá  
 DMARC určuje, jak má server příjemce naložit s e-mailem, který neprošel kontrolou SPF nebo DKIM. Zároveň umožňuje majiteli domény zasílat detailní reporty o tom, kdo se z jeho domény pokouší maily posílat.
-### Co tím získáte
+### Co tím získáte  
 Absolutní kontrolu nad svou identitou. Útočníci již nebudou moci falšovat vaše e-mailové adresy. Navíc díky reportům přesně vidíte všechny legitimní i nelegitímní servery využívající vaši doménu.
-### Jak to nastavit
+### Jak to nastavit 
 DMARC se nastavuje jako TXT záznam s názvem _dmarc.vase-domena.cz. Má tři základní bezpečnostní režimy (p=):
 1.	p=none (Monitoring): Maily se neblokují. Ideální na začátek (1–2 týdny) pro sběr dat do logů a odladění chyb.
 2.	p=quarantine (Karanténa): Maily bez SPF/DKIM padají příjemcům rovnou do spamu.
