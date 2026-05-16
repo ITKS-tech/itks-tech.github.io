@@ -50,10 +50,15 @@ DKIM podepisuje každý odchozí e-mail neviditelným kryptografickým klíčem.
 ### Co tím získáte
 Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s hlavičkou odesílatele nikdo během cesty po internetu nemanipuloval. Na rozdíl od SPF zůstává DKIM v e-mailu platný i při automatickém přeposílání zpráv.
 ### Jak to nastavit
+
 1.	Přihlaste se do administrace svého e-mailového poskytovatele (Google Workspace, Microsoft 365, Seznam Profi, Wedos).
+
 2.	V sekci nastavení e-mailu nechte vygenerovat nový DKIM klíč.
+
 3.	Poskytovatel vám vygeneruje název (selektor, např. google._domainkey) a dlouhý textový řetězec (veřejný klíč).
+
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.  
+
 ________________________________________  
 ## 3. DMARC (Domain-based Message Authentication) – Řídící střecha  
 
