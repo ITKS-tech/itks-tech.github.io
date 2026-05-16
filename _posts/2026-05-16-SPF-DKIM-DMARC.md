@@ -36,6 +36,7 @@ Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv 
    
 ________________________________________
 ## 1. SPF (Sender Policy Framework) – Seznam povolených odesílatelů
+
 ### Co to dělá
 SPF je TXT záznam v DNS vaší domény, který obsahuje veřejný seznam IP adres a serverů, ze kterých smí odcházet e-maily s vaší koncovkou (např. @firma.cz).
 ### Co tím získáte
@@ -53,6 +54,7 @@ v=spf1 mx include:_://google.com include:spf.seznam.cz include:_://fakturoid.com
 Význam -all na konci: Říká, že jakýkoliv jiný server mimo tento seznam je nelegitímní a mail má být odmítnut.
 ________________________________________
 ## 2. DKIM (DomainKeys Identified Mail) – Digitální podpis 
+
 ### Co to dělá
 DKIM podepisuje každý odchozí e-mail neviditelným kryptografickým klíčem. V DNS domény je umístěn veřejný klíč, kterým si server příjemce ověří, zda e-mail skutečně vytvořil majitel domény.
 ### Co tím získáte
@@ -64,6 +66,7 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.
 ________________________________________
 ## 3. DMARC (Domain-based Message Authentication) – Řídící střecha 
+
 ### Co to dělá
 DMARC určuje, jak má server příjemce naložit s e-mailem, který neprošel kontrolou SPF nebo DKIM. Zároveň umožňuje majiteli domény zasílat detailní reporty o tom, kdo se z jeho domény pokouší maily posílat.
 ### Co tím získáte
