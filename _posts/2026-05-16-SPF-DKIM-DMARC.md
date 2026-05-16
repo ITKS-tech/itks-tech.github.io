@@ -13,7 +13,8 @@ V tomto průvodci si ukážeme, jak tyto technologie fungují, co jejich nasazen
 ________________________________________
 # 🛡️ Tři pilíře zabezpečení e-mailu
 Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv může na obálku napsat jakoukoliv zpáteční adresu. SPF, DKIM a DMARC fungují jako digitální podatelna, která ověřuje pravost odesílatele i obsahu.
-   [ Odeslaný e-mail ]
+
+[ Odeslaný e-mail ]
            │
            ▼
    ┌────────────────┐
@@ -32,22 +33,26 @@ Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv 
            │
            ▼
    [ Doručeno / Spam / Blokováno ]
+   
 ________________________________________
 ## 1. SPF (Sender Policy Framework) – Seznam povolených odesílatelů
-Co to dělá
+### Co to dělá
 SPF je TXT záznam v DNS vaší domény, který obsahuje veřejný seznam IP adres a serverů, ze kterých smí odcházet e-maily s vaší koncovkou (např. @firma.cz).
-Co tím získáte
+### Co tím získáte
 Server příjemce (např. Gmail) při přijetí e-mailu zkontroluje IP adresu odesílajícího serveru. Pokud tato IP adresa není na vašem SPF seznamu, e-mail je vyhodnocen jako podezřelý.
-Jak to nastavit
+### Jak to nastavit
 Každá doména smí mít striktně pouze jeden SPF záznam. Pokud používáte více služeb (poštu od registrátora, e-shop, účetní software), musíte je spojit do jednoho řádku pomocí operátoru include:.
 •	Příklad pro poštu u Wedosu:
+```
 v=spf1 mx include:_spf.we.wedos.net -all
+```
 •	Příklad pro kombinaci Google Workspace, Seznamu a Fakturoidu:
+```
 v=spf1 mx include:_://google.com include:spf.seznam.cz include:_://fakturoid.com -all
+```
 Význam -all na konci: Říká, že jakýkoliv jiný server mimo tento seznam je nelegitímní a mail má být odmítnut.
 ________________________________________
-## 2. DKIM (DomainKeys Identified Mail) – Digitální podpis
-
+## 2. DKIM (DomainKeys Identified Mail) – Digitální podpis 
 ### Co to dělá
 DKIM podepisuje každý odchozí e-mail neviditelným kryptografickým klíčem. V DNS domény je umístěn veřejný klíč, kterým si server příjemce ověří, zda e-mail skutečně vytvořil majitel domény.
 ### Co tím získáte
@@ -59,7 +64,6 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.
 ________________________________________
 ## 3. DMARC (Domain-based Message Authentication) – Řídící střecha
-
 ### Co to dělá
 DMARC určuje, jak má server příjemce naložit s e-mailem, který neprošel kontrolou SPF nebo DKIM. Zároveň umožňuje majiteli domény zasílat detailní reporty o tom, kdo se z jeho domény pokouší maily posílat.
 ### Co tím získáte
