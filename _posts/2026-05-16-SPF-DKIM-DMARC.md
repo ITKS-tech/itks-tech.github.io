@@ -14,18 +14,18 @@ ________________________________________
 # 🛡️ Tři pilíře zabezpečení e-mailu
 Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv může na obálku napsat jakoukoliv zpáteční adresu. SPF, DKIM a DMARC fungují jako digitální podatelna, která ověřuje pravost odesílatele i obsahu.
 
-[ Odeslaný e-mail ]
-  │
-  ▼
-> **1. SPF** — *Odešel mail ze schválené IP adresy?*
-  │
-  ▼
-> **2. DKIM** — *Je digitální podpis mailu platný?*
-  │
-  ▼
-> **3. DMARC** — *Co dělat, když SPF nebo DKIM selže?*
-  │
-  ▼
+[ Odeslaný e-mail ]  
+  │  
+  ▼  
+> **1. SPF** — *Odešel mail ze schválené IP adresy?*  
+  │  
+  ▼  
+> **2. DKIM** — *Je digitální podpis mailu platný?*  
+  │ 
+  ▼ 
+> **3. DMARC** — *Co dělat, když SPF nebo DKIM selže?*  
+  │  
+  ▼ 
 [ Doručeno / Spam / Blokováno ]
    
 ________________________________________
