@@ -53,7 +53,7 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 1.	Přihlaste se do administrace svého e-mailového poskytovatele (Google Workspace, Microsoft 365, Seznam Profi, Wedos).
 2.	V sekci nastavení e-mailu nechte vygenerovat nový DKIM klíč.
 3.	Poskytovatel vám vygeneruje název (selektor, např. google._domainkey) a dlouhý textový řetězec (veřejný klíč).
-4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.
+4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.  
 ________________________________________  
 ## 3. DMARC (Domain-based Message Authentication) – Řídící střecha  
 
