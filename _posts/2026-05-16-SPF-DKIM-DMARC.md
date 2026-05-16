@@ -59,20 +59,26 @@ ________________________________________
 
 ### Co to dělá  
 DMARC určuje, jak má server příjemce naložit s e-mailem, který neprošel kontrolou SPF nebo DKIM. Zároveň umožňuje majiteli domény zasílat detailní reporty o tom, kdo se z jeho domény pokouší maily posílat.
+
 ### Co tím získáte  
 Absolutní kontrolu nad svou identitou. Útočníci již nebudou moci falšovat vaše e-mailové adresy. Navíc díky reportům přesně vidíte všechny legitimní i nelegitímní servery využívající vaši doménu.
+
 ### Jak to nastavit 
-DMARC se nastavuje jako TXT záznam s názvem _dmarc.vase-domena.cz. Má tři základní bezpečnostní režimy (p=):
-1.	p=none (Monitoring): Maily se neblokují. Ideální na začátek (1–2 týdny) pro sběr dat do logů a odladění chyb.
-2.	p=quarantine (Karanténa): Maily bez SPF/DKIM padají příjemcům rovnou do spamu.
-3.	p=reject (Odmítnutí): Nevalidní maily jsou serverem příjemce okamžitě smazány a k adresátovi vůbec nedorazí.
-•	Příklad bezpečného DMARC pro monitoring se zasíláním logů na váš IT e-mail:
-o	Název: _dmarc
-o	Typ: TXT
-o	Data: v=DMARC1; p=none; rua=mailto:logs@itks.cz; ruf=mailto:logs@itks.cz; fo=1; pct=100;
-Význam parametrů: rua definuje schránku pro denní statistiky, ruf schránku pro okamžitá hlášení o jednotlivých chybách, fo=1 spustí hlášení při jakémkoliv selhání.
-⚠️ Pozor na externí domény: Pokud posíláte reporty na jinou doménu, než kterou monitorujete (např. z domény klienta na vaši doménu itks.cz), musíte na své přijímací doméně vytvořit autorizační DNS záznam typu TXT s názvem klient.cz._report._dmarc.itks.cz a hodnotou v=DMARC1;. Jinak servery reporty z bezpečnostních důvodů neodešlou.
-________________________________________
+DMARC se nastavuje jako TXT záznam s názvem `_dmarc.vase-domena.cz`. Má tři základní bezpečnostní režimy (`p=`):
+
+1. **`p=none` (Monitoring):** Maily se neblokují. Ideální na začátek (1–2 týdny) pro sběr dat do logů a odladění chyb.
+2. **`p=quarantine` (Karanténa):** Maily bez SPF/DKIM padají příjemcům rovnou do spamu.
+3. **`p=reject` (Odmítnutí):** Nevalidní maily jsou serverem příjemce okamžitě smazány a k adresátovi vůbec nedorazí.
+
+#### Příklad bezpečného DMARC pro monitoring se zasíláním logů na váš IT e-mail:
+*   **Název:** `_dmarc`
+*   **Typ:** `TXT`
+*   **Data:** `v=DMARC1; p=none; rua=mailto:report@itks.cz; ruf=mailto:report@itks.cz; fo=1; pct=100;`
+
+**Význam parametrů:** `rua` definuje schránku pro denní statistiky, `ruf` schránku pro okamžitá hlášení o jednotlivých chybách, `fo=1` spustí hlášení při jakémkoliv selhání.
+
+⚠️ **Pozor na externí domény:** Pokud posíláte reporty na jinou doménu, než kterou monitorujete (např. z domény klienta na vaši doménu `itks.cz`), musíte na své přijímací doméně vytvořit autorizační DNS záznam typu `TXT` s názvem `klient.cz._report._dmarc.itks.cz` a hodnotou `v=DMARC1;`. Jinak servery reporty z bezpečnostních důvodů neodešlou.
+__________________________________
 ## 🛠️ Ověření funkčnosti přes Windows PowerShell
 Nemusíte čekat na doručení e-mailu, abyste zjistili, zda máte DNS záznamy správně zapsané. Můžete využít systémový nástroj Windows PowerShell a příkaz Resolve-DnsName.
 ### 1. Kontrola SPF záznamu
