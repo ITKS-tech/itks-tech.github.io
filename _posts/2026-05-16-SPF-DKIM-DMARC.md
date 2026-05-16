@@ -63,7 +63,7 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 3.	Poskytovatel vám vygeneruje název (selektor, např. google._domainkey) a dlouhý textový řetězec (veřejný klíč).
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.
 ________________________________________
-## 3. DMARC (Domain-based Message Authentication) – Řídící střecha
+## 3. DMARC (Domain-based Message Authentication) – Řídící střecha 
 ### Co to dělá
 DMARC určuje, jak má server příjemce naložit s e-mailem, který neprošel kontrolou SPF nebo DKIM. Zároveň umožňuje majiteli domény zasílat detailní reporty o tom, kdo se z jeho domény pokouší maily posílat.
 ### Co tím získáte
