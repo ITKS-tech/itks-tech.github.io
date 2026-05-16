@@ -27,6 +27,7 @@ Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv 
 ________________________________________
 ## 1. SPF (Sender Policy Framework) – Seznam povolených odesílatelů
 
+
 ### Co to dělá
 SPF je TXT záznam v DNS vaší domény, který obsahuje veřejný seznam IP adres a serverů, ze kterých smí odcházet e-maily s vaší koncovkou (např. @firma.cz).
 ### Co tím získáte
@@ -42,6 +43,7 @@ v=spf1 mx include:_spf.we.wedos.net -all
 v=spf1 mx include:_://google.com include:spf.seznam.cz include:_://fakturoid.com -all
 ```
 Význam -all na konci: Říká, že jakýkoliv jiný server mimo tento seznam je nelegitímní a mail má být odmítnut.
+
 ________________________________________
 ## 2. DKIM (DomainKeys Identified Mail) – Digitální podpis 
 
