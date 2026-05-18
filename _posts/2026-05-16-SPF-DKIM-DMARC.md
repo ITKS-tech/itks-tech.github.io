@@ -10,7 +10,7 @@ toc: false
 
 Nenechávejte doručitelnost svých firemních e-mailů na náhodě. Od roku 2024 zavedli globální hráči jako Google, Yahoo a český Seznam přísná pravidla pro ověřování odesílatelů. Pokud vaše doména nemá správně nastavenou trojici DNS záznamů – SPF, DKIM a DMARC – vaše e-maily (faktury, nabídky, objednávky) budou končit ve spamu, nebo je servery příjemců rovnou smažou.
 V tomto průvodci si ukážeme, jak tyto technologie fungují, co jejich nasazením získáte a jak je správně nakonfigurovat a ověřit.
-________________________________________
+
 # 🛡️ Tři pilíře zabezpečení e-mailu
 Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv může na obálku napsat jakoukoliv zpáteční adresu. SPF, DKIM a DMARC fungují jako digitální podatelna, která ověřuje pravost odesílatele i obsahu.
 
@@ -24,7 +24,6 @@ Představte si e-mailovou komunikaci jako klasickou papírovou poštu. Kdokoliv 
 > 🔽 <br>
 > [ Doručeno / Spam / Blokováno ]
    
-________________________________________
 ## 1. SPF (Sender Policy Framework) – Seznam povolených odesílatelů
 
 
@@ -44,7 +43,6 @@ v=spf1 mx include:_://google.com include:spf.seznam.cz include:_://fakturoid.com
 ```
 Význam -all na konci: Říká, že jakýkoliv jiný server mimo tento seznam je nelegitímní a mail má být odmítnut.
 
-________________________________________
 ## 2. DKIM (DomainKeys Identified Mail) – Digitální podpis 
 
 ### Co to dělá
@@ -61,7 +59,6 @@ Zajišťuje integritu e-mailu. Garantuje příjemci, že s obsahem zprávy ani s
 
 4.	Tento klíč vložíte do DNS záznamů své domény jako typ TXT.  
 
-________________________________________  
 ## 3. DMARC (Domain-based Message Authentication) – Řídící střecha  
 
 ### Co to dělá  
@@ -85,7 +82,7 @@ DMARC se nastavuje jako TXT záznam s názvem `_dmarc.vase-domena.cz`. Má tři 
 **Význam parametrů:** `rua` definuje schránku pro denní statistiky, `ruf` schránku pro okamžitá hlášení o jednotlivých chybách, `fo=1` spustí hlášení při jakémkoliv selhání.
 
 ⚠️ **Pozor na externí domény:** Pokud posíláte reporty na jinou doménu, než kterou monitorujete (např. z domény klienta na vaši doménu `itks.cz`), musíte na své přijímací doméně vytvořit autorizační DNS záznam typu `TXT` s názvem `klient.cz._report._dmarc.itks.cz` a hodnotou `v=DMARC1;`. Jinak servery reporty z bezpečnostních důvodů neodešlou.
-__________________________________
+
 ## 🛠️ Ověření funkčnosti přes Windows PowerShell
 Nemusíte čekat na doručení e-mailu, abyste zjistili, zda máte DNS záznamy správně zapsané. Můžete využít systémový nástroj Windows PowerShell a příkaz Resolve-DnsName.
 ### 1. Kontrola SPF záznamu
@@ -110,7 +107,7 @@ powershell
 Resolve-DnsName -Name selektor._domainkey.firma.cz -Type TXT
 ```
 Pokud je záznam aktivní, PowerShell zobrazí dlouhý šifrovaný veřejný klíč.
-________________________________________
+
 ## 📈 Doporučený postup nasazení v praxi
 1.	Nasaďte SPF pro všechny známé servery.
 2.	Aktivujte DKIM u vašeho poštovního poskytovatele.
